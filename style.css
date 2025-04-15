@@ -1,0 +1,320 @@
+/* General Styles */
+•	{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+Body {
+    Font-family: 'Arial', sans-serif;
+    Line-height: 1.6;
+    Background-color: #f4f4f4;
+    Color: #333;
+}
+
+A {
+    Text-decoration: none;
+    Color: inherit;
+}
+
+/* Header */
+#navbar {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 20px;
+    Background-color: #333;
+    Color: white;
+}
+
+#navbar img {
+    Width: 150px;
+}
+
+Nav ul {
+    Display: flex;
+    List-style: none;
+}
+
+Nav ul li {
+    Margin-left: 20px;
+}
+
+Nav ul li a {
+    Color: white;
+    Font-size: 16px;
+    Padding: 10px;
+    Text-transform: uppercase;
+    Letter-spacing: 1px;
+}
+
+Nav ul li a:hover {
+    Background-color: #ff6347;
+    Border-radius: 5px;
+}
+
+/* Content Section */
+.content {
+    Text-align: center;
+    Padding: 80px 20px;
+    Background-color: #ff6347;
+    Color: white;
+}
+
+.content h1 {
+    Font-size: 3em;
+    Margin-bottom: 20px;
+}
+
+.content .primary-text {
+    Font-weight: bold;
+}
+
+.content p {
+    Font-size: 1.2em;
+    Margin-bottom: 20px;
+}
+
+.content .btn {
+    Padding: 10px 20px;
+    Background-color: #333;
+    Color: white;
+    Font-size: 1.1em;
+    Text-transform: uppercase;
+    Border-radius: 5px;
+    Transition: background-color 0.3s;
+}
+
+.content .btn:hover {
+    Background-color: #ff6347;
+}
+
+/* About Section */
+#about {
+    Padding: 60px 20px;
+    Background-color: #fff;
+    Text-align: center;
+}
+
+#about .title h2 {
+    Font-size: 2.5em;
+    Margin-bottom: 10px;
+}
+
+#about .title p {
+    Font-size: 1.2em;
+    Margin-bottom: 30px;
+}
+
+#about .about-content {
+    Display: flex;
+    Align-items: center;
+    Justify-content: center;
+    Gap: 30px;
+}
+
+#about .about-content div {
+    Max-width: 500px;
+    Text-align: left;
+}
+
+#about .about-content img {
+    Width: 400px;
+    Border-radius: 10px;
+}
+
+/* Shop Section */
+#shop {
+    Padding: 60px 20px;
+    Background-color: #f4f4f4;
+}
+
+#shop .title h2 {
+    Font-size: 2.5em;
+    Margin-bottom: 10px;
+}
+
+#shop .title p {
+    Font-size: 1.2em;
+    Margin-bottom: 30px;
+}
+
+.shop-items {
+    Display: flex;
+    Justify-content: space-between;
+    Gap: 20px;
+}
+
+.shop-item {
+    Background-color: white;
+    Padding: 20px;
+    Text-align: center;
+    Border-radius: 10px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    Width: 30%;
+    Transition: transform 0.3s;
+}
+
+.shop-item:hover {
+    Transform: scale(1.05);
+}
+
+.shop-item img {
+    Width: 100%;
+    Border-radius: 10px;
+    Margin-bottom: 20px;
+}
+
+.shop-item h3 {
+    Font-size: 1.5em;
+    Margin-bottom: 10px;
+}
+
+.shop-item p {
+    Font-size: 1.1em;
+    Color: #777;
+    Margin-bottom: 20px;
+}
+
+.shop-item .btn {
+    Background-color: #333;
+    Color: white;
+    Padding: 10px 20px;
+    Border-radius: 5px;
+    Font-size: 1.1em;
+    Text-transform: uppercase;
+    Letter-spacing: 1px;
+}
+
+.shop-item .btn:hover {
+    Background-color: #ff6347;
+}
+
+/* Gallery Section */
+#gallery {
+    Padding: 60px 20px;
+    Background-color: white;
+    Text-align: center;
+}
+
+#gallery h2 {
+    Font-size: 2.5em;
+    Margin-bottom: 30px;
+}
+
+.img-gallery {
+    Display: grid;
+    Grid-template-columns: repeat(4, 1fr);
+    Gap: 15px;
+}
+
+.img-gallery img {
+    Width: 100%;
+    Border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+    Padding: 60px 20px;
+    Background-color: #f4f4f4;
+}
+
+#contact .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+.contact-info {
+    Width: 45%;
+}
+
+.contact-info h3 {
+    Font-size: 2em;
+    Margin-bottom: 20px;
+}
+
+.contact-info p {
+    Font-size: 1.2em;
+    Margin-bottom: 20px;
+}
+
+.contact-info i {
+    Color: #ff6347;
+    Margin-right: 10px;
+}
+
+Form {
+    Width: 45%;
+    Display: flex;
+    Flex-direction: column;
+}
+
+Form input,
+Form textarea {
+    Padding: 15px;
+    Margin: 10px 0;
+    Border-radius: 5px;
+    Border: 1px solid #ccc;
+}
+
+Form button {
+    Padding: 15px;
+    Background-color: #333;
+    Color: white;
+    Font-size: 1.2em;
+    Border-radius: 5px;
+    Transition: background-color 0.3s;
+}
+
+Form button:hover {
+    Background-color: #ff6347;
+}
+
+/* Footer */
+Footer {
+    Padding: 20px;
+    Text-align: center;
+    Background-color: #333;
+    Color: white;
+}
+
+Footer a {
+    Color: #ff6347;
+    Font-weight: bold;
+    Text-decoration: none;
+}
+
+Footer a:hover {
+    Text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #navbar {
+        Flex-direction: column;
+        Text-align: center;
+    }
+
+    .shop-items {
+        Flex-direction: column;
+    }
+
+    .img-gallery {
+        Grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-content {
+        Flex-direction: column;
+        Text-align: center;
+    }
+
+    .contact-info {
+        Width: 100%;
+        Margin-bottom: 30px;
+    }
+
+    Form {
+        Width: 100%;
+    }
+}
